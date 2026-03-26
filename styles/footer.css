@@ -1,0 +1,66 @@
+.final {
+ background-image: url(../assets/Background_Contacts.png);
+  background-size: cover;        /* cobre toda a área */
+  background-position: center;   /* centraliza */
+  background-repeat: no-repeat;  /* não repete */
+  height: 100vh; /* ocupa a tela inteira */ }
+
+  .final p:nth-child(1) {
+    color: rgb(141, 10, 141);
+    text-align: center;
+    font: var(--subtitle);
+    padding-top: 128px;
+
+  }
+
+  .final h6{
+    font: var(--title-md);
+    color: #E2E4E9;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .final p:nth-child(3) {
+    color: #C0C4CE;
+    text-align: center;
+    font: var(--text-med);
+    padding-top: 5px;
+  }
+
+  .final ul {
+    display: grid;
+  gap: 16px;
+  padding-top: 48px;
+  list-style: none;
+  width: 400px;
+  margin: 0 auto;
+  }
+
+ 
+.bla, .ble, .bli, .blo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2a2f3a;
+  border-radius: 12px;
+  padding: 20px;
+  
+}
+
+.bla img, .ble img, .bli img, .blo img {
+  width: 28px;
+  height: 28px;
+}
+
+.bla li, .ble li, .bli li, .blo li {
+  font: var(--text-med);
+  color: #C0C4CE;
+  list-style: none;
+  flex: 1;
+  text-align: left;
+  margin-left: 16px;
+}
+.bla a img, .ble a img, .bli a img, .blo a img{
+    height: 15px;
+  
+}
