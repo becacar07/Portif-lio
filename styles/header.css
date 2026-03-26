@@ -1,5 +1,5 @@
 .hero {
-   background-image: url(../../assets/Background_Intro.png);
+   background-image: url(../assets/Background_Intro.png);
   background-size: cover;        /* cobre toda a área */
   background-position: center;   /* centraliza */
   background-repeat: no-repeat;  /* não repete */
