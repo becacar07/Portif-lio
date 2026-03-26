@@ -1,0 +1,188 @@
+.hero {
+   background-image: url(../../assets/Background_Intro.png);
+  background-size: cover;        /* cobre toda a área */
+  background-position: center;   /* centraliza */
+  background-repeat: no-repeat;  /* não repete */
+
+  height: 100vh; /* ocupa a tela inteira */ }
+
+ .hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* mantém centralizado horizontal */
+  
+  padding-top: 120px; /* empurra pra cima como no Figma */
+
+ }
+ .avatar img:nth-child(1) {
+     margin-bottom: 54px;
+     border: 2px solid #E3646E;
+     border-radius: 50%;
+  
+ }
+
+
+.hero span {
+  color: #E3646E; /* vermelho do projeto */
+}
+.hero p:nth-child(4){
+    font: var(--title-sem);
+    padding-top: 20px;
+}
+
+.avatar {
+  position: relative;
+  display: inline-block;
+}
+
+.avatar img:nth-child(1) {
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  right: -15px;
+  transform: translateY(-10%);
+  width: 20px;
+  height: 20px;
+}
+.arrow {
+  position: absolute;
+  bottom: -6px;
+  right: -6px;
+  width: 24px;
+}
+.arrow {
+  position: absolute;
+  bottom: 0;   /* cola embaixo */
+  right: 0;    /* cola na direita */
+
+  width: 20px; /* ajusta tamanho */
+}
+.arrow {
+  bottom: -5px;
+  right: -5px;
+}
+
+.blocos ul
+{
+  display: flex;
+  gap: 100px; /* espaço entre todos */
+  list-style: none;
+  padding-top: 80px;
+ 
+
+}
+
+.blocos li:nth-child(1){
+   font: var(--text-med);
+  color: #C0C4CE;
+  background-color: #292C34;
+
+  padding: 12px 24px; /* controla o tamanho interno */
+  
+  border: 2px solid #3A3F4B; /* borda mais fina */
+  border-radius: 999px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+    gap: 10px;
+
+}
+
+  .blocos li:nth-child(2){
+   font: var(--text-med);
+  color: #C0C4CE;
+  background-color: #292C34;
+
+  padding: 12px 24px; /* controla o tamanho interno */
+  
+  border: 2px solid #3A3F4B; /* borda mais fina */
+  border-radius: 999px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+  .blocos li:nth-child(3){
+   font: var(--text-med);
+  color: #C0C4CE;
+  background-color: #292C34;
+
+  padding: 12px 24px; /* controla o tamanho interno */
+  
+  border: 2px solid #3A3F4B; /* borda mais fina */
+  border-radius: 999px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+  .blocos li:nth-child(4){
+   font: var(--text-med);
+  color: #C0C4CE;
+  background-color: #292C34;
+
+  padding: 12px 24px; /* controla o tamanho interno */
+  
+  border: 2px solid #3A3F4B; /* borda mais fina */
+  border-radius: 999px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+  .blocos li:nth-child(5) {
+   font: var(--text-med);
+  color: #C0C4CE;
+  background-color: #292C34;
+
+  padding: 12px 24px; /* controla o tamanho interno */
+  
+  border: 2px solid #3A3F4B; /* borda mais fina */
+  border-radius: 999px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+  .blocos li:nth-child(6){
+   font: var(--text-med);
+  color: #C0C4CE;
+  background-color: #292C34;
+
+  padding: 12px 24px; /* controla o tamanho interno */
+  
+  border: 2px solid #3A3F4B; /* borda mais fina */
+  border-radius: 999px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.blocos li img {
+  width: 20px;
+  height: 20px;
+  filter: none;
+}
+
+.seta {
+    padding: 112px;
+}
+
+.corpo {
+  background-color: #16181D;
+}
+ 

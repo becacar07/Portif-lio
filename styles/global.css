@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-asap: 'Asap', sans-serif;
+    --title-lg: 900 56px/120% var(--font-asap);
+    --title-md: 900 24px/120% var(--font-asap);
+    --text-sm: 400 16px/120% var(--font-asap);
+
+    --font-maven: 'Maven Pro', sans-serif;
+    --title-med:   16px/140% var(--font-maven);
+    --title-sem:  14px/140% var(--font-maven);
+
+    --font-inconsolata: 'Inconsolata', sans-serif;
+    --subtitle:   20px/120% var(--font-inconsolata);
+}
+ h1 {
+  font: var(--title-lg);
+  color: #E2E4E9;
+ }
+
+.hero p {
+    font: var(--subtitle);
+    color: #878EA1;
+  
+}
+ 
